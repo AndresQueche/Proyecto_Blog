@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @comnent.post_id %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @comnent.body %>
+</p>
+
+<%= link_to 'Edit', edit_comnent_path(@comnent) %> |
+<%= link_to 'Back', comnents_path %>
